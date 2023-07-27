@@ -34,6 +34,11 @@ class Rectangle extends Shape {
   double calculateArea() {
     return height * width;
   }
+
+  @override
+  void sayHello() {
+    super.sayHello();
+  }
 }
 
 class Circle extends Shape {
